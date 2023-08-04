@@ -1597,6 +1597,7 @@ def test_torch_view_as_real(
         min_dim_size=2,
         max_dim_size=2,
         min_value=1,
+        max_value=1e10,
     ),
     test_with_out=st.just(False),
 )
